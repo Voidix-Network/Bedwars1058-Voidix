@@ -1,3 +1,7 @@
+# DO NOT REPORT THIS PLUGIN'S ISSUES TO BEDWARS1058! THIS IS AN UNOFFICIAL FORK!
+## Bedwars1058 fork version for server "Voidix".
+# ------------------------------------------------------------------
+
 ![Logo](./.github/assets/logo_open_source.png)
 
 
