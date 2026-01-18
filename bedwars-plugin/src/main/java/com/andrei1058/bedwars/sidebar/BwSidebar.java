@@ -151,12 +151,16 @@ public class BwSidebar implements ISidebar {
                                 .replace("{TeamColor}", team.getColor().chat().toString())
                                 .replace("{TeamName}", teamName);
 
-                        if (line.contains("{TeamStatus}") && getAPI().getVersionSupport().getVersion() >= 10) {
-                            line = line.replace("{TeamStatus}", "");
-                            scoreLine = "{Team" + team.getName() + "Status}";
-                        } else {
+                        // Disabled FixedFormat feature due to bug in spigot-sidebar library
+                        // The refreshPlaceholders() method doesn't update the score line text
+                        // causing team status (✓/✗) not updating when bed is destroyed
+                        // TODO: Re-enable when spigot-sidebar is fixed
+                        // if (line.contains("{TeamStatus}") && getAPI().getVersionSupport().getVersion() >= 10) {
+                        //     line = line.replace("{TeamStatus}", "");
+                        //     scoreLine = "{Team" + team.getName() + "Status}";
+                        // } else {
                             line = line.replace("{TeamStatus}", "{Team" + team.getName() + "Status}");
-                        }
+                        // }
                     } else {
                         // skip line
                         continue;
