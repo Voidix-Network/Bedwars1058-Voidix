@@ -136,6 +136,3 @@ If you are not a programmer you can help answering people in the [Issues](https:
 - [Commons IO](https://mvnrepository.com/artifact/commons-io/commons-io)
 - [HikariCP](https://mvnrepository.com/artifact/com.zaxxer/HikariCP)
 - [SLF4J](http://www.slf4j.org/)
-
-# Contact
-[![Discord Server](https://discordapp.com/api/guilds/201345265821679617/widget.png?style=banner3)](https://discord.gg/XdJfN2X)
